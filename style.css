@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color: #ddd;
+}
+.container{
+    width:20%;
+    padding:10px;
+    margin:0 auto;
+    background-color:white;
+}
+.name-div{
+    display: flex;
+    gap:10px;
+}
+.main{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0px 0px 3px 0px rgb(158, 158, 158);
+   padding:10px;
+   margin-top:10px;
+   margin-bottom:10px;
+}
+.icondiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.icon{
+    font-size: 15px;
+}
+.para{
+    font-size:10px;
+    margin-left:10px;
+}
